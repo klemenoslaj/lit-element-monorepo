@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Example App</title>
+
+    <base href="/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
+    <script src="./app.element.ts"></script>
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Material+Icons&display=block"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        font-family: Roboto, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <osk-app></osk-app>
+  </body>
+</html>

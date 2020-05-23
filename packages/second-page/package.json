@@ -1,0 +1,26 @@
+{
+  "name": "second-page",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.ts",
+    "build:dev": "parcel build src/index.ts --no-minify --no-scope-hoist --no-source-maps",
+    "clear:dist": "rm -rf dist",
+    "clear:cache": "rm -rf .parcel-cache",
+    "clear:deps": "rm -rf node_modules",
+    "clear:prune": "rm -rf dist node_modules .parcel-cache",
+    "format": "prettier './src/**/*.{ts,html,scss}' --write"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.0.0-nightly.277",
+    "parcel": "^2.0.0-nightly.275",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1",
+    "tslib": "^2.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "monorepo",
+  "version": "0.0.0",
+  "author": "Klemen Oslaj",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:libs": "yarn workspace first-page build & yarn workspace second-page build; wait",
+    "build:libs:dev": "yarn workspace first-page build:dev & yarn workspace second-page build:dev; wait",
+    "build:all": "yarn build:libs && yarn workspace application build",
+    "clear:dist:all": "yarn workspace first-page clear:dist & yarn workspace second-page clear:dist & yarn workspace application clear:dist; wait",
+    "clear:cache:all": "yarn workspace first-page clear:cache & yarn workspace second-page clear:cache & yarn workspace application clear:cache & rm -rf .parcel-cache; wait",
+    "clear:deps:all": "yarn workspace first-page clear:deps & yarn workspace second-page clear:deps & yarn workspace application clear:deps & rm -rf node_modules; wait",
+    "clear:prune:all": "yarn workspace first-page clear:prune & yarn workspace second-page clear:prune & yarn workspace application clear:prune & rm -rf node_modules; wait",
+    "serve": "yarn workspace application serve",
+    "format:all": "yarn workspace first-page format & yarn workspace second-page format & yarn workspace application format; wait"
+  },
+  "workspaces": [
+    "./packages/*"
+  ]
+}

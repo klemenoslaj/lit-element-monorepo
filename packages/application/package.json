@@ -1,0 +1,33 @@
+{
+  "name": "application",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "clear:dist": "rm -rf dist",
+    "clear:cache": "rm -rf .parcel-cache",
+    "clear:deps": "rm -rf node_modules",
+    "clear:prune": "rm -rf dist node_modules .parcel-cache",
+    "serve": "parcel serve src/index.html",
+    "format": "prettier './src/**/*.{ts,html,scss}' --write"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.0.0-nightly.277",
+    "parcel": "^2.0.0-nightly.275",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@material/mwc-drawer": "^0.15.0",
+    "@material/mwc-icon": "^0.15.0",
+    "@material/mwc-icon-button": "^0.15.0",
+    "@material/mwc-list": "^0.15.0",
+    "@material/mwc-top-app-bar": "^0.15.0",
+    "lit-element": "^2.3.1",
+    "router-slot": "^1.5.4",
+    "tslib": "^2.0.0",
+    "first-page": "0.0.0",
+    "second-page": "0.0.0"
+  }
+}
