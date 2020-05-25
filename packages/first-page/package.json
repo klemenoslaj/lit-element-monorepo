@@ -1,6 +1,7 @@
 {
   "name": "first-page",
   "main": "./dist/index.js",
+  "source": "./src/index.ts",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -13,14 +14,24 @@
     "format": "prettier './src/**/*.{ts,html,scss}' --write"
   },
   "devDependencies": {
-    "@parcel/transformer-typescript-tsc": "^2.0.0-nightly.277",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@parcel/babel-preset-env": "^2.0.0-alpha.3",
+    "@parcel/transformer-sass": "^2.0.0-nightly.277",
     "parcel": "^2.0.0-nightly.275",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.3"
+    "sass": "^1.26.5"
   },
   "dependencies": {
     "@material/typography": "^6.0.0",
     "lit-element": "^2.3.1",
     "tslib": "^2.0.0"
+  },
+  "sass": {
+    "includePaths": [
+      "./node_modules"
+    ]
   }
 }
