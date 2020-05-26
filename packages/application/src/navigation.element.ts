@@ -1,4 +1,4 @@
-import { LitElement, html, customElement, css, queryAll, property, queryAsync } from 'lit-element';
+import { LitElement, html, customElement, css, queryAll, property } from 'lit-element';
 import { isPathActive } from 'router-slot';
 import '@material/mwc-list/mwc-list';
 import '@material/mwc-list/mwc-list-item';

@@ -89,10 +89,12 @@ export default class AppElement extends LitElement {
     this._routerSlot.add([
       {
         path: 'first-page',
+        // @ts-ignore
         component: () => import('first-page'),
       },
       {
         path: 'second-page',
+        // @ts-ignore
         component: () => import('second-page'),
       },
       {

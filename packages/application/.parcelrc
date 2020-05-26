@@ -4,5 +4,8 @@
     "*.ts": [
       "@parcel/transformer-typescript-tsc"
     ]
+  },
+  "validators": {
+    "*.ts": ["@parcel/validator-typescript"]
   }
 }

@@ -1,24 +1,9 @@
-import { LitElement, html, customElement, css } from 'lit-element';
+import { LitElement, html, customElement, unsafeCSS } from 'lit-element';
+import style from 'bundle-text:./first-page.element.scss';
 
 @customElement('osk-first-page')
 export class FirstPageElement extends LitElement {
-  static styles = css`
-    mwc-top-app-bar {
-      --mdc-theme-primary: black;
-    }
-
-    .card {
-      margin-bottom: 10px;
-    }
-
-    .card__title {
-      position: sticky;
-      top: 0;
-      margin: 0;
-      padding: 0.83em 0;
-      background: #fff;
-    }
-  `;
+  static styles = unsafeCSS(style);
 
   protected render() {
     return html`

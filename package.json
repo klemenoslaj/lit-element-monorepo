@@ -11,7 +11,7 @@
     "clear:dist:all": "yarn workspace first-page clear:dist & yarn workspace second-page clear:dist & yarn workspace application clear:dist; wait",
     "clear:cache:all": "yarn workspace first-page clear:cache & yarn workspace second-page clear:cache & yarn workspace application clear:cache & rm -rf .parcel-cache; wait",
     "clear:deps:all": "yarn workspace first-page clear:deps & yarn workspace second-page clear:deps & yarn workspace application clear:deps & rm -rf node_modules; wait",
-    "clear:prune:all": "yarn workspace first-page clear:prune & yarn workspace second-page clear:prune & yarn workspace application clear:prune & rm -rf node_modules; wait",
+    "clear:prune:all": "yarn workspace first-page clear:prune & yarn workspace second-page clear:prune & yarn workspace application clear:prune & rm -rf node_modules & rm -rf .parcel-cache; wait",
     "serve": "yarn workspace application serve",
     "format:all": "yarn workspace first-page format & yarn workspace second-page format & yarn workspace application format; wait"
   },

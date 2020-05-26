@@ -15,8 +15,10 @@
   },
   "devDependencies": {
     "@parcel/transformer-typescript-tsc": "^2.0.0-nightly.277",
+    "@parcel/validator-typescript": "^2.0.0-nightly.277",
     "parcel": "^2.0.0-nightly.275",
     "prettier": "^2.0.5",
+    "sass": "^1.26.5",
     "typescript": "^3.9.3"
   },
   "dependencies": {
