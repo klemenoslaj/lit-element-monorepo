@@ -12,6 +12,8 @@ import type { TopAppBar } from '@material/mwc-top-app-bar';
 import './navigation.element';
 import type { Pages } from './navigation.element';
 
+const value: string = 5;
+
 @customElement('osk-app')
 export default class AppElement extends LitElement {
   static styles = css`
