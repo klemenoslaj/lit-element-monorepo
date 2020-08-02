@@ -943,6 +943,16 @@
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
+"@parcel/codeframe@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/codeframe/-/codeframe-2.0.0-nightly.356.tgz#eba751a4d25399c5ce3f9407a6a38fc9869e368c"
+  integrity sha512-f6w5ob8VXUgQDYdbyTAJH89I2D8+lTF2/t4k8sX6vZiVK4DdtfGjNKBMOL/jg6MDcRNObdoB813aG0S001FGGw==
+  dependencies:
+    chalk "^2.4.2"
+    emphasize "^2.1.0"
+    slice-ansi "^4.0.0"
+    string-width "^4.2.0"
+
 "@parcel/config-default@2.0.0-nightly.277+d33fcd9c":
   version "2.0.0-nightly.277"
   resolved "https://registry.npmjs.org/@parcel/config-default/-/config-default-2.0.0-nightly.277.tgz#9a3c9fa350cdcfd425cebe34da84d942531cf593"
@@ -1026,10 +1036,23 @@
     json-source-map "^0.6.1"
     nullthrows "^1.1.1"
 
+"@parcel/diagnostic@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/diagnostic/-/diagnostic-2.0.0-nightly.356.tgz#a251690db3f1a984025c05bcf8f73b9ad363816f"
+  integrity sha512-FCZve7FWiH1EXrJVABhyd3DupfbeFvjJzLEAVv6SZTMNqr9ij5qTh2JB5FUVSRPPisLbxYXGJSLLDAeWaTU/EA==
+  dependencies:
+    json-source-map "^0.6.1"
+    nullthrows "^1.1.1"
+
 "@parcel/events@2.0.0-nightly.277+d33fcd9c":
   version "2.0.0-nightly.277"
   resolved "https://registry.npmjs.org/@parcel/events/-/events-2.0.0-nightly.277.tgz#6c4c1c837977d17e081ea0acf722a06ed39ab161"
   integrity sha512-XcG+OfvMZ//I2MG50TDasM4VaToQmQWnw00YBYSA6PbUOE5di4YszLSTP7hT0SIDY2Eoa2bZFy5T8aHndGZMCw==
+
+"@parcel/events@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/events/-/events-2.0.0-nightly.356.tgz#d90bcc8a7680abb1db80d85be624de2b9aa645a5"
+  integrity sha512-HD5W11JWmsGxmbqn3hiHqBMmG1cPsMxjlW60s3ek1E1nRfZoqeGOEt9rU2GhCZ7Fo6cpHYT72uIlI49/nrBLig==
 
 "@parcel/fs@2.0.0-nightly.277+d33fcd9c":
   version "2.0.0-nightly.277"
@@ -1053,10 +1076,25 @@
     "@parcel/diagnostic" "2.0.0-nightly.277+d33fcd9c"
     "@parcel/events" "2.0.0-nightly.277+d33fcd9c"
 
+"@parcel/logger@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/logger/-/logger-2.0.0-nightly.356.tgz#8872c551adff0af867d6d9e80db53964ad90fe00"
+  integrity sha512-fP7mvgazj2Kk2kpR4KSthhaUhx/gpC+84yyi5B3DeyhAWGAz/ZWLumXaaS/3mC6vA9y/AAixpSK/E/loO9GpVg==
+  dependencies:
+    "@parcel/diagnostic" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/events" "2.0.0-nightly.356+788bf0e8"
+
 "@parcel/markdown-ansi@2.0.0-nightly.277+d33fcd9c":
   version "2.0.0-nightly.277"
   resolved "https://registry.npmjs.org/@parcel/markdown-ansi/-/markdown-ansi-2.0.0-nightly.277.tgz#7b29394b93139ecce67c9edaf18736cbed163934"
   integrity sha512-8njPfqWrBLDSS72nKxN9CRP/fANXI2/rs0S1Ow9lzkieigNSvwCiOv4igAXBzIgbaT+dmvK2S2O4cezTKgLwfw==
+  dependencies:
+    chalk "^2.4.2"
+
+"@parcel/markdown-ansi@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/markdown-ansi/-/markdown-ansi-2.0.0-nightly.356.tgz#7a05275682e53af9bc06fca9b1577be248035744"
+  integrity sha512-CfaFesFfLyHPHQSxaJSDwo8Wvf3UCi9mGH8tuoXZ7q+d3x334H/VOqgU0FxyAMl/HKUvUnKgL51czlw4+ZGE8Q==
   dependencies:
     chalk "^2.4.2"
 
@@ -1228,6 +1266,13 @@
   dependencies:
     "@parcel/types" "2.0.0-nightly.277+d33fcd9c"
 
+"@parcel/plugin@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.0.0-nightly.356.tgz#72a20800c0558fa4d572694f7140210714162c69"
+  integrity sha512-Bs0teBdf7oz/eIN1pX9F2NQbl60V/KALrK+h1ZrJYRxuxIIdLeltG9Ou6LS60wn1hvp3la0atw0ww0JhbryH3A==
+  dependencies:
+    "@parcel/types" "2.0.0-nightly.356+788bf0e8"
+
 "@parcel/reporter-bundle-analyzer@2.0.0-nightly.1899+d33fcd9c":
   version "2.0.0-nightly.1899"
   resolved "https://registry.npmjs.org/@parcel/reporter-bundle-analyzer/-/reporter-bundle-analyzer-2.0.0-nightly.1899.tgz#0dde603246e7fcf98426b0a7fdf32ea8cd2a4c14"
@@ -1315,6 +1360,14 @@
     "@parcel/source-map" "2.0.0-alpha.4.9"
     "@parcel/utils" "2.0.0-nightly.277+d33fcd9c"
     nullthrows "^1.1.1"
+
+"@parcel/source-map@2.0.0-alpha.4.13":
+  version "2.0.0-alpha.4.13"
+  resolved "https://registry.yarnpkg.com/@parcel/source-map/-/source-map-2.0.0-alpha.4.13.tgz#2b262be6e99a15e9de3f6656df27c0b0c4809b83"
+  integrity sha512-MnIfYmaRqnwK8kRRG9Osu1DkJGl2bVSfJs9SqauJ9N4dOdAXAFGeeDtzXnHvx02DO+HwK7YjsbhBpSvvgZcWHg==
+  dependencies:
+    node-addon-api "^2.0.0"
+    node-gyp-build "^4.2.2"
 
 "@parcel/source-map@2.0.0-alpha.4.9":
   version "2.0.0-alpha.4.9"
@@ -1577,10 +1630,22 @@
   dependencies:
     nullthrows "^1.1.1"
 
+"@parcel/ts-utils@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/ts-utils/-/ts-utils-2.0.0-nightly.356.tgz#fa45e425fa1ca509862a51235ca8afd368236bb4"
+  integrity sha512-3HtFHL0Jtafy64pL18/rXhkawM/JcBdE5XeEEN7Roe5QgjxZjyv2gA6sYfEo2I63wd9q7EVS4yDno0DHFIlpZw==
+  dependencies:
+    nullthrows "^1.1.1"
+
 "@parcel/types@2.0.0-nightly.277+d33fcd9c":
   version "2.0.0-nightly.277"
   resolved "https://registry.npmjs.org/@parcel/types/-/types-2.0.0-nightly.277.tgz#70dd04a998a5fa7c4ecbecc11cf3c0875cf401a8"
   integrity sha512-9zMd+TzfPc3vN6ylcpFsJ1O1s31kPVX1IXQG66MzoYemgMw1Lzy8Wu2ondc0Vi9jxRnaWdWj9xl9lGAmAiz6pQ==
+
+"@parcel/types@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/types/-/types-2.0.0-nightly.356.tgz#2d99ef451dd93e38c5e3bfc2753a20a955e4fc02"
+  integrity sha512-kL934ztgIWVaVjYK8biQLYO3sAE+jQ2SY3jpiBCTvnRAayvxSxlM9DvfIak7DX9nLPUpAt+TrTO/cCDxaO/guA==
 
 "@parcel/utils@2.0.0-nightly.277+d33fcd9c":
   version "2.0.0-nightly.277"
@@ -1608,6 +1673,43 @@
     resolve "^1.12.0"
     serialize-to-js "^3.0.1"
     terser "^3.7.3"
+
+"@parcel/utils@2.0.0-nightly.356+788bf0e8":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/utils/-/utils-2.0.0-nightly.356.tgz#75ef6f66e77fe39babfdf4e6ef081413a2e85453"
+  integrity sha512-QW3nfBbjE26Q90f8Nl3fe3OYxslVCyw2NN3LPrUVvp927KOY5S9kr3KnW+NZvq7ji6sGoZkkmjzgSEm41V4ORA==
+  dependencies:
+    "@iarna/toml" "^2.2.0"
+    "@parcel/codeframe" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/diagnostic" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/logger" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/markdown-ansi" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/source-map" "2.0.0-alpha.4.13"
+    ansi-html "^0.0.7"
+    chalk "^2.4.2"
+    clone "^2.1.1"
+    fast-glob "3.1.1"
+    fastest-levenshtein "^1.0.8"
+    is-glob "^4.0.0"
+    is-url "^1.2.2"
+    json5 "^1.0.1"
+    micromatch "^4.0.2"
+    node-forge "^0.8.1"
+    nullthrows "^1.1.1"
+    open "^7.0.3"
+    resolve "^1.12.0"
+    serialize-to-js "^3.0.1"
+    terser "^3.7.3"
+
+"@parcel/validator-typescript@^2.0.0-nightly.277":
+  version "2.0.0-nightly.356"
+  resolved "https://registry.yarnpkg.com/@parcel/validator-typescript/-/validator-typescript-2.0.0-nightly.356.tgz#64334f0dcea609a096f09f7f94a15797adc8e849"
+  integrity sha512-UCE0WIJPYL+CdGMRiiHj2TJPYBVN8uFbTfagWxWut8gwIKBLtyG3vOoIYNS2f1JUbB8tTQ++YlZFDDD1/vaIBw==
+  dependencies:
+    "@parcel/plugin" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/ts-utils" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/types" "2.0.0-nightly.356+788bf0e8"
+    "@parcel/utils" "2.0.0-nightly.356+788bf0e8"
 
 "@parcel/watcher@^2.0.0-alpha.5":
   version "2.0.0-alpha.5"
@@ -1964,7 +2066,7 @@ braces@^3.0.1, braces@~3.0.2:
 
 brorand@^1.0.1:
   version "1.1.0"
-  resolved "https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
+  resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
 
 browser-process-hrtime@^1.0.0:
@@ -2827,9 +2929,9 @@ electron-to-chromium@^1.3.413:
   integrity sha512-IdbjgCEqDvcU/1kUQa6C49I2NZOY3SBmU9Eus7mdFdJJBqn0Lg1Epfi/T4nqVcxTNBEGhcjwMhY1EysMBsXZrw==
 
 elliptic@^6.0.0, elliptic@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npmjs.org/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
-  integrity sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -3060,6 +3162,11 @@ fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fastest-levenshtein@^1.0.8:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/fastest-levenshtein/-/fastest-levenshtein-1.0.10.tgz#c2e0f0914cedd1af2f180a5c281d0d2791f8585a"
+  integrity sha512-47cjEZM1VsM21NQtVunzK/c4ZezeS0FIYRNZ/ovHY234NQ2BNvLMmAIjYfb+lVZAKI1h3GZwYAl1Pu6isaIJIQ==
 
 fastparse@^1.1.2:
   version "1.1.2"
@@ -3375,7 +3482,7 @@ hash-base@^3.0.0:
 
 hash.js@^1.0.0, hash.js@^1.0.3:
   version "1.1.7"
-  resolved "https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
+  resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
   integrity sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==
   dependencies:
     inherits "^2.0.3"
@@ -3393,7 +3500,7 @@ highlight.js@~9.12.0:
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
+  resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   integrity sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
   dependencies:
     hash.js "^1.0.3"
@@ -4178,12 +4285,12 @@ mimic-response@^2.0.0:
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
+  resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
 
 minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
+  resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
 minimatch@^3.0.4:
@@ -4291,6 +4398,11 @@ node-gyp-build@^4.2.1:
   version "4.2.2"
   resolved "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.2.2.tgz#3f44b65adaafd42fb6c3d81afd630e45c847eb66"
   integrity sha512-Lqh7mrByWCM8Cf9UPqpeoVBBo5Ugx+RKu885GAzmLBVYjeywScxHXPGLa4JfYNZmcNGwzR0Glu5/9GaQZMFqyA==
+
+node-gyp-build@^4.2.2:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.2.3.tgz#ce6277f853835f718829efb47db20f3e4d9c4739"
+  integrity sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==
 
 node-releases@^1.1.53:
   version "1.1.56"
