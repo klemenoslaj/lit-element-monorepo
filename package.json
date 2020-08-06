@@ -8,6 +8,7 @@
     "build:libs": "yarn workspace first-page build & yarn workspace second-page build; wait",
     "build:libs:dev": "yarn workspace first-page build:dev & yarn workspace second-page build:dev; wait",
     "build:all": "yarn build:libs && yarn workspace application build",
+    "build:docs": "yarn build:all --public-url=/lit-element-monorepo/ --no-source-maps && rm -rf docs && cp -r ./packages/application/dist ./docs",
     "clear:dist:all": "yarn workspace first-page clear:dist & yarn workspace second-page clear:dist & yarn workspace application clear:dist; wait",
     "clear:cache:all": "yarn workspace first-page clear:cache & yarn workspace second-page clear:cache & yarn workspace application clear:cache & rm -rf .parcel-cache; wait",
     "clear:deps:all": "yarn workspace first-page clear:deps & yarn workspace second-page clear:deps & yarn workspace application clear:deps & rm -rf node_modules; wait",

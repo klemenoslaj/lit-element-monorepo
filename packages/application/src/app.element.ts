@@ -73,11 +73,11 @@ export default class AppElement extends LitElement {
 
   private _pages: Pages = [
     {
-      path: '/first-page',
+      path: 'first-page',
       title: 'First Page',
     },
     {
-      path: '/second-page',
+      path: 'second-page',
       title: 'Second Page',
     },
   ];
